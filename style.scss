@@ -1,0 +1,214 @@
+/*
+Theme Name: Chess design
+Theme URI:
+Author: TMD
+Author URI:
+Description: Pressin' those words, 1st try
+Version: 0.01
+*/
+/* =WordPress Core -------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+/* MY STYLE-------------------------------------------------------------- */
+* {-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+html, body {
+    font: 100%  helvetica, sans-serif; /* 16px*/
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    margin: 0;
+ }
+
+#menu-primary {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 120%;
+
+	li {
+		display: inline-block;
+	}
+
+	a {
+		text-decoration: none;
+		color: #eee;
+		padding: 15px;
+	}
+
+	a:hover {
+		border-bottom: rgba(3, 140, 220, 0.5) 5px solid;
+		}
+}
+
+.post-list {
+    float: right;
+	width: 60%;
+	margin-top: 50px;
+	color: #eee;
+	font-size: 105%;
+}
+
+.more-link {
+	padding: 15px;
+	background-color: rgba(3, 140, 220, 0.5);
+	display: block;
+	width: 60px;
+	text-decoration: none;
+	color: #eee;
+    margin-top: 15px;
+}
+
+.group:before, .group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    *zoom: 1;
+    margin: 0 10%;
+}
+
+.udalosti {
+    color: #eee;
+    float: left;
+    width: 40%;
+    margin-top: 50px;
+    font-size: 105%;
+}
+
+.aktuality {
+    width: 60%;
+    margin-top: 50px;
+    color: #eee;
+    font-size: 105%;
+}
+
+.datum {
+    background-color: rgba(3, 140, 220, 0.5);
+    min-width: 70px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.udalost {
+    border-bottom: solid #eee 1px;
+    width: 75%;
+    padding: 20px 0;
+
+     p {
+        display: inline-block;
+        position: relative;
+        bottom: 10px;
+        margin-bottom: 0;
+    }
+}
+
+.udalost:last-child {
+    border-bottom: none;
+}
+
+
