@@ -113,8 +113,8 @@ html, body {
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 100%;
     margin: 0;
+    color: #eee;
  }
 
 #menu-primary {
@@ -135,6 +135,10 @@ html, body {
 	a:hover {
 		border-bottom: rgba(3, 140, 220, 0.5) 5px solid;
 		}
+
+    .wp-post-image {
+
+    }
 }
 
 .post-list {
@@ -143,6 +147,18 @@ html, body {
 	margin-top: 50px;
 	color: #eee;
 	font-size: 105%;
+
+    .viac {
+        text-align: center;
+
+        a {
+            color: #eee;
+            padding: 10px;
+            font-size: 110%;
+            text-decoration: none;
+            border: rgba(3, 140, 220, 0.5) 5px solid;
+        }
+    }
 }
 
 .more-link {
@@ -182,6 +198,17 @@ html, body {
     margin-top: 50px;
     color: #eee;
     font-size: 105%;
+    margin: auto;
+
+    .post {
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+        border-bottom: rgba(3, 140, 220, 0.5) 5px solid;
+    }
+
+    .post:last-child {
+        border-bottom: none;
+    }
 }
 
 .datum {
@@ -210,5 +237,13 @@ html, body {
 .udalost:last-child {
     border-bottom: none;
 }
+
+.onas {
+    text-align: center;
+    margin: 50px auto;
+    padding: 0 10%;
+}
+
+
 
 

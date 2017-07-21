@@ -18,8 +18,12 @@
 			</article>
 
 		<?php endwhile ?>
+		<div class="viac"><a href="http://localhost/web/wordpress/aktuality/">Zobraziť viac</a></div>
 	</div>
 	<?php endif ?>
 
+
+
 </div>
 <?php get_footer() ?>
+
